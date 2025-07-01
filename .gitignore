@@ -1,0 +1,9 @@
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# VSCode local setting files
+.vscode/
+
+#
+.env
