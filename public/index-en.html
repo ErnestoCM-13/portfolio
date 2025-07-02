@@ -15,14 +15,16 @@
     <!-- Header Section -->
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <!-- <a href="#services">Services</a> -->
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="menu-wrapper">
+            <i class='menu-toggle bx bx-menu' id="menu-icon"></i>
+            <nav class="menu-options navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <!-- Home section -->
@@ -59,7 +61,7 @@
     </section>
 
     <!-- Skills section -->
-    <section class="skills">
+    <section class="skills" id="skills">
         <h2 class="heading">My <span>Skills</span></h2>
         <div class="skills-container">
             <div class="skills-box">
@@ -80,32 +82,6 @@
             </div>
         </div>
     </section>
-    
-
-    <!-- Services section -->
-    <!-- <section class="services" id="services">
-        <h2 class="heading">My <span>Services</span></h2>
-        <div class="services-container">
-            <div class="services-box">
-                <i class='bx bx-code-alt' ></i>
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur odit reprehenderit eveniet cumque quia inventore et voluptate vel molestiae quibusdam veritatis exercitationem totam iure, dolores fuga aperiam iste id dolorum.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-            <div class="services-box">
-                <i class='bx bx-code-alt' ></i>
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur odit reprehenderit eveniet cumque quia inventore et voluptate vel molestiae quibusdam veritatis exercitationem totam iure, dolores fuga aperiam iste id dolorum.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-            <div class="services-box">
-                <i class='bx bx-code-alt' ></i>
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur odit reprehenderit eveniet cumque quia inventore et voluptate vel molestiae quibusdam veritatis exercitationem totam iure, dolores fuga aperiam iste id dolorum.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-        </div>
-    </section> -->
 
     <!-- Portfolio section -->
     <section class="portfolio" id="portfolio">
@@ -191,6 +167,17 @@
     <footer class="footer">
         <div class="footer-text">
             <p>Copyright &copy; 2024 by "" | All Rights Reserved</p>
+        </div>   
+        <div class="menu-wrapper language-switcher">
+            <button class="menu-toggle language-toggle">🌐︎ Language</button>
+            <ul class="menu-options language-options">
+                <li>
+                    <a rel="alternate" hreflang="en" href="https://ernestocm-portfolio.netlify.app/index-en.html" class="active-lang">English</a>
+                </li>
+                <li>
+                    <a rel="alternate" hreflang="es" href="https://ernestocm-portfolio.netlify.app/index-es.html">Español</a>
+                </li>
+            </ul>
         </div>
         <div class="footer-icon">
             <a href="#home"><i class='bx bxs-to-top'></i></a>
