@@ -1,0 +1,23 @@
+# === Line endings (end of line - eol) ===
+
+# Force LF for scripts (ideal for bash on Netlify or Linux)
+*.sh text eol=lf
+
+# Text files (convert CRLF to LF when saving to Git)
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+
+# Image files: do not apply transformations
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg  text
+
+# UTF-8 encoding (optional, if using accented characters)
+*.html text working-tree-encoding=UTF-8
+*.md   text working-tree-encoding=UTF-8
