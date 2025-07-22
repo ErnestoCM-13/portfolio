@@ -13,6 +13,7 @@ mkdir -p public/assets/img
 #mkdir -pf public/assets/icons
 cp src/assets/img/* public/assets/img/
 #cp src/assets/icons/* public/assets/icons/
+cp src/assets/* public/assets/
 
 # CSS
 mkdir -p public/css
