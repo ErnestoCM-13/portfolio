@@ -4,7 +4,7 @@ Static website featuring my profile, tech stack, and projects, available in both
 Built with HTML, CSS, and vanilla JavaScript — no frameworks or dependencies.
 
 ## Live Demo
-[Visit the website](https://ernestocm-portfolio.netlify.app/)
+[Visit the website](https://ernesto-cuapantecatl.netlify.app/)
 
 ---
 
@@ -46,7 +46,7 @@ Netlify automatically deploys the `main` branch. `netlify.toml` defines the publ
 
 ### Content Security Policy
 
-The site loads **no** external resources: licons are inline SVGs, and there is no font CDN or third-party scripts. That's why the CSP in `netlify.toml` uses a strict `'self'` policy, without `'unsafe-inline'`.
+The site loads **no** external resources: icons are inline SVGs, and there is no font CDN or third-party scripts. That's why the CSP in `netlify.toml` uses a strict `'self'` policy, without `'unsafe-inline'`.
 
 For the same reason, CSS and JavaScript are always kept in separate files: inline `<style>` and `<script>` elements, as well as `style=""` and `onclick=""` attributes, are not allowed.
 
